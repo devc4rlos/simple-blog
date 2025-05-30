@@ -1,0 +1,24 @@
+{
+    "name": "devc4rlos/simple-blog",
+    "description": "Simple blog with PHP",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devc4rlos\\SimpleBlog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Alexandre",
+            "email": "carlos206819@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-readline": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
