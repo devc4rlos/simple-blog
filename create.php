@@ -4,6 +4,8 @@ use Devc4rlos\SimpleBlog\Entity\Post;
 use Devc4rlos\SimpleBlog\Repository\Post\PdoPostRepository;
 use Devc4rlos\SimpleBlog\Service\PostService;
 
+header('Content-Type: application/json');
+
 $postRepository = new PdoPostRepository();
 $postService = new PostService($postRepository);
 
